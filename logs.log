@@ -1,0 +1,1145 @@
+2023-10-02 16:40:11,946:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-10-02 16:40:11,947:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-10-02 16:40:11,947:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-10-02 16:40:11,947:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-10-02 18:01:29,398:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-10-02 18:01:29,398:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-10-02 18:01:29,398:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-10-02 18:01:29,398:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-10-02 18:01:30,727:WARNING:/var/folders/73/hc_zb17944z42_dsmk15lr780000gn/T/ipykernel_40680/483637925.py:1: DtypeWarning: Columns (11,15,19) have mixed types. Specify dtype option on import or set low_memory=False.
+  rent_df = pd.read_csv("/Users/ellandalla/Desktop/Machine-Learning/apartments_for_rent_classified_100K.csv",  sep=";", encoding = "latin-1" )
+
+2023-10-02 18:20:01,248:WARNING:/var/folders/73/hc_zb17944z42_dsmk15lr780000gn/T/ipykernel_40680/2649930706.py:1: DtypeWarning: Columns (11,15,19) have mixed types. Specify dtype option on import or set low_memory=False.
+  rent_df = pd.read_csv("/Users/ellandalla/Desktop/Machine-Learning/apartments_for_rent_classified_100K.csv",  sep=";", encoding = "UTF-8" )
+
+2023-10-02 19:39:20,981:WARNING:/var/folders/73/hc_zb17944z42_dsmk15lr780000gn/T/ipykernel_40680/3971618358.py:1: FutureWarning: In a future version of pandas all arguments of StringMethods.split except for the argument 'pat' will be keyword-only.
+  rent_df2[['id', 'category', 'title', 'body']] = rent_df['id'].str.split(';', 1, expand=True)
+
+2023-10-02 19:40:01,630:WARNING:/var/folders/73/hc_zb17944z42_dsmk15lr780000gn/T/ipykernel_40680/2565536307.py:2: FutureWarning: In a future version of pandas all arguments of StringMethods.split except for the argument 'pat' will be keyword-only.
+  rent_df2[['id', 'category', 'title', 'body']] = rent_df['id'].str.split(';', 1, expand=True)
+
+2023-10-02 19:44:00,327:WARNING:/var/folders/73/hc_zb17944z42_dsmk15lr780000gn/T/ipykernel_40680/3783062120.py:2: FutureWarning: In a future version of pandas all arguments of StringMethods.split except for the argument 'pat' will be keyword-only.
+  rent_df2[['id', 'category', 'title', 'body']] = rent_df2['id'].str.split(';', 3, expand=True)
+
+2023-10-02 19:44:13,444:WARNING:/var/folders/73/hc_zb17944z42_dsmk15lr780000gn/T/ipykernel_40680/546276250.py:2: FutureWarning: In a future version of pandas all arguments of StringMethods.split except for the argument 'pat' will be keyword-only.
+  rent_df2[['id', 'category', 'title', 'body']] = rent_df2['id'].str.split(';', 3, expand=True)
+
+2023-10-02 19:55:10,972:WARNING:/var/folders/73/hc_zb17944z42_dsmk15lr780000gn/T/ipykernel_40680/2649930706.py:1: DtypeWarning: Columns (11,15,19) have mixed types. Specify dtype option on import or set low_memory=False.
+  rent_df = pd.read_csv("/Users/ellandalla/Desktop/Machine-Learning/apartments_for_rent_classified_100K.csv",  sep=";", encoding = "UTF-8" )
+
+2023-10-02 19:55:23,346:WARNING:/var/folders/73/hc_zb17944z42_dsmk15lr780000gn/T/ipykernel_40680/546276250.py:2: FutureWarning: In a future version of pandas all arguments of StringMethods.split except for the argument 'pat' will be keyword-only.
+  rent_df2[['id', 'category', 'title', 'body']] = rent_df2['id'].str.split(';', 3, expand=True)
+
+2023-10-02 20:22:55,540:WARNING:/var/folders/73/hc_zb17944z42_dsmk15lr780000gn/T/ipykernel_40680/413262134.py:1: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  rent_df2[columns_to_convert] = rent_df2[columns_to_convert].replace('', np.nan)
+
+2023-10-02 20:24:55,062:WARNING:/var/folders/73/hc_zb17944z42_dsmk15lr780000gn/T/ipykernel_40680/1934948164.py:1: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  rent_df2['id'] = rent_df2['id'].astype(np.float64)
+
+2023-10-02 20:25:28,348:WARNING:/var/folders/73/hc_zb17944z42_dsmk15lr780000gn/T/ipykernel_40680/2903079363.py:1: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  rent_df2['price'] = rent_df2['price'].astype(np.float64)
+
+2023-10-02 20:29:53,026:WARNING:/var/folders/73/hc_zb17944z42_dsmk15lr780000gn/T/ipykernel_40680/3390592928.py:1: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  rent_df2['square_feet'] = rent_df2['square_feet'].str.replace("Elko", "NAN")
+
+2023-10-02 20:33:24,289:WARNING:/var/folders/73/hc_zb17944z42_dsmk15lr780000gn/T/ipykernel_40680/2631852237.py:1: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  rent_df2['square_feet'] = rent_df2['square_feet'].replace(["Hemet", "Elko" ], np.nan)
+
+2023-10-02 20:33:35,312:WARNING:/var/folders/73/hc_zb17944z42_dsmk15lr780000gn/T/ipykernel_40680/362866913.py:1: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  rent_df2['square_feet'] = rent_df2['square_feet'].astype(np.float64)
+
+2023-10-02 20:35:02,797:WARNING:/var/folders/73/hc_zb17944z42_dsmk15lr780000gn/T/ipykernel_40680/362866913.py:1: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  rent_df2['square_feet'] = rent_df2['square_feet'].astype(np.float64)
+
+2023-10-02 20:35:31,191:WARNING:/var/folders/73/hc_zb17944z42_dsmk15lr780000gn/T/ipykernel_40680/413262134.py:1: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  rent_df2[columns_to_convert] = rent_df2[columns_to_convert].replace('', np.nan)
+
+2023-10-02 20:37:16,797:WARNING:/var/folders/73/hc_zb17944z42_dsmk15lr780000gn/T/ipykernel_40680/362866913.py:1: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  rent_df2['square_feet'] = rent_df2['square_feet'].astype(np.float64)
+
+2023-10-03 11:51:34,175:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-10-03 11:51:34,176:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-10-03 11:51:34,176:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-10-03 11:51:34,176:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-10-03 11:51:47,317:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-10-03 11:51:47,317:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-10-03 11:51:47,317:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-10-03 11:51:47,317:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-10-03 11:51:49,836:WARNING:/var/folders/73/hc_zb17944z42_dsmk15lr780000gn/T/ipykernel_53526/2649930706.py:1: DtypeWarning: Columns (11,15,19) have mixed types. Specify dtype option on import or set low_memory=False.
+  rent_df = pd.read_csv("/Users/ellandalla/Desktop/Machine-Learning/apartments_for_rent_classified_100K.csv",  sep=";", encoding = "UTF-8" )
+
+2023-10-03 11:51:51,251:WARNING:/var/folders/73/hc_zb17944z42_dsmk15lr780000gn/T/ipykernel_53526/546276250.py:2: FutureWarning: In a future version of pandas all arguments of StringMethods.split except for the argument 'pat' will be keyword-only.
+  rent_df2[['id', 'category', 'title', 'body']] = rent_df2['id'].str.split(';', 3, expand=True)
+
+2023-10-03 12:48:33,125:WARNING:/var/folders/73/hc_zb17944z42_dsmk15lr780000gn/T/ipykernel_53526/413262134.py:1: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  rent_df2[columns_to_convert] = rent_df2[columns_to_convert].replace('', np.nan)
+
+2023-10-03 12:48:34,408:WARNING:/var/folders/73/hc_zb17944z42_dsmk15lr780000gn/T/ipykernel_53526/1934948164.py:1: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  rent_df2['id'] = rent_df2['id'].astype(np.float64)
+
+2023-10-03 12:48:35,175:WARNING:/var/folders/73/hc_zb17944z42_dsmk15lr780000gn/T/ipykernel_53526/2903079363.py:1: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  rent_df2['price'] = rent_df2['price'].astype(np.float64)
+
+2023-10-03 12:48:35,726:WARNING:/var/folders/73/hc_zb17944z42_dsmk15lr780000gn/T/ipykernel_53526/2631852237.py:1: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  rent_df2['square_feet'] = rent_df2['square_feet'].replace(["Hemet", "Elko" ], np.nan)
+
+2023-10-03 12:48:36,156:WARNING:/var/folders/73/hc_zb17944z42_dsmk15lr780000gn/T/ipykernel_53526/362866913.py:1: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  rent_df2['square_feet'] = rent_df2['square_feet'].astype(np.float64)
+
+2023-10-03 12:48:36,560:WARNING:/var/folders/73/hc_zb17944z42_dsmk15lr780000gn/T/ipykernel_53526/362866913.py:1: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  rent_df2['square_feet'] = rent_df2['square_feet'].astype(np.float64)
+
+2023-10-03 12:48:36,937:WARNING:/var/folders/73/hc_zb17944z42_dsmk15lr780000gn/T/ipykernel_53526/2628934679.py:1: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  rent_df2[columns_to_convert] = rent_df2[columns_to_convert]
+
+2023-10-03 13:07:37,824:WARNING:/var/folders/73/hc_zb17944z42_dsmk15lr780000gn/T/ipykernel_53526/362866913.py:1: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  rent_df2['square_feet'] = rent_df2['square_feet'].astype(np.float64)
+
+2023-10-03 13:07:38,425:WARNING:/var/folders/73/hc_zb17944z42_dsmk15lr780000gn/T/ipykernel_53526/362866913.py:1: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  rent_df2['square_feet'] = rent_df2['square_feet'].astype(np.float64)
+
+2023-10-04 15:11:03,239:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-10-04 15:11:03,239:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-10-04 15:11:03,239:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-10-04 15:11:03,240:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-10-04 15:11:12,735:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-10-04 15:11:12,735:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-10-04 15:11:12,735:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-10-04 15:11:12,735:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-10-04 15:11:14,360:WARNING:/var/folders/73/hc_zb17944z42_dsmk15lr780000gn/T/ipykernel_84577/2359924451.py:2: DtypeWarning: Columns (11,15,19) have mixed types. Specify dtype option on import or set low_memory=False.
+  rent_df = pd.read_csv("/Users/ellandalla/Desktop/Machine-Learning/apartments_for_rent_classified_100K.csv",  sep=";", encoding = "UTF-8" )
+
+2023-10-04 15:11:15,497:WARNING:/var/folders/73/hc_zb17944z42_dsmk15lr780000gn/T/ipykernel_84577/1734079811.py:3: FutureWarning: In a future version of pandas all arguments of StringMethods.split except for the argument 'pat' will be keyword-only.
+  rent_df2[['id', 'category', 'title', 'body']] = rent_df2['id'].str.split(';', 3, expand=True)
+
+2023-10-04 15:11:15,988:WARNING:/var/folders/73/hc_zb17944z42_dsmk15lr780000gn/T/ipykernel_84577/413262134.py:1: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  rent_df2[columns_to_convert] = rent_df2[columns_to_convert].replace('', np.nan)
+
+2023-10-04 15:11:16,030:WARNING:/var/folders/73/hc_zb17944z42_dsmk15lr780000gn/T/ipykernel_84577/1934948164.py:1: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  rent_df2['id'] = rent_df2['id'].astype(np.float64)
+
+2023-10-04 15:11:16,043:WARNING:/var/folders/73/hc_zb17944z42_dsmk15lr780000gn/T/ipykernel_84577/2903079363.py:1: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  rent_df2['price'] = rent_df2['price'].astype(np.float64)
+
+2023-10-04 15:11:16,057:WARNING:/var/folders/73/hc_zb17944z42_dsmk15lr780000gn/T/ipykernel_84577/2631852237.py:1: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  rent_df2['square_feet'] = rent_df2['square_feet'].replace(["Hemet", "Elko" ], np.nan)
+
+2023-10-04 15:11:16,070:WARNING:/var/folders/73/hc_zb17944z42_dsmk15lr780000gn/T/ipykernel_84577/362866913.py:1: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  rent_df2['square_feet'] = rent_df2['square_feet'].astype(np.float64)
+
+2023-10-04 15:11:16,076:WARNING:/var/folders/73/hc_zb17944z42_dsmk15lr780000gn/T/ipykernel_84577/362866913.py:1: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  rent_df2['square_feet'] = rent_df2['square_feet'].astype(np.float64)
+
+2023-10-04 15:11:16,082:WARNING:/var/folders/73/hc_zb17944z42_dsmk15lr780000gn/T/ipykernel_84577/362866913.py:1: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  rent_df2['square_feet'] = rent_df2['square_feet'].astype(np.float64)
+
+2023-10-04 15:19:56,325:WARNING:/var/folders/73/hc_zb17944z42_dsmk15lr780000gn/T/ipykernel_84577/3932176251.py:2: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  rent_df2[geospatial] = rent_df2[geospatial].replace(["RentDigs.com"], np.nan)
+
+2023-10-04 15:20:07,055:WARNING:/var/folders/73/hc_zb17944z42_dsmk15lr780000gn/T/ipykernel_84577/606328775.py:2: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  rent_df2[geospatial] = rent_df2[geospatial].replace(["RentDigs.com"], np.nan)
+
+2023-10-04 15:22:05,849:WARNING:/var/folders/73/hc_zb17944z42_dsmk15lr780000gn/T/ipykernel_84577/3103473424.py:2: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  rent_df2[geospatial] = rent_df2[geospatial].replace(["RentDigs.com", "'1568758399,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,'"], np.nan)
+
+2023-10-04 15:23:02,279:WARNING:/var/folders/73/hc_zb17944z42_dsmk15lr780000gn/T/ipykernel_84577/1376796952.py:2: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  rent_df2[geospatial] = rent_df2[geospatial].replace(["RentDigs.com", "'1568758399,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,'"], np.nan)
+
+2023-10-04 15:23:58,740:WARNING:/var/folders/73/hc_zb17944z42_dsmk15lr780000gn/T/ipykernel_84577/1376796952.py:2: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  rent_df2[geospatial] = rent_df2[geospatial].replace(["RentDigs.com", "'1568758399,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,'"], np.nan)
+
+2023-10-04 16:16:04,075:WARNING:/var/folders/73/hc_zb17944z42_dsmk15lr780000gn/T/ipykernel_84577/1040261340.py:4: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  rent_df2[column] = np.where(rent_df2[column].str.replace(',', '').str.strip(), rent_df2[column], np.nan)
+
+2023-10-04 16:17:25,499:WARNING:/var/folders/73/hc_zb17944z42_dsmk15lr780000gn/T/ipykernel_84577/2260861707.py:4: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  rent_df2[column] = np.where(rent_df2[column].str.replace(',', '').str.strip().str.isdigit(), rent_df2[column], np.nan)
+
+2023-10-04 16:19:15,134:WARNING:/var/folders/73/hc_zb17944z42_dsmk15lr780000gn/T/ipykernel_84577/4164311960.py:4: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  rent_df2[column] = np.where(rent_df2[column].str.replace("1568758399,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,," , "").str.strip().str.isdigit(), rent_df2[column], np.nan)
+
+2023-10-04 16:19:15,184:WARNING:/var/folders/73/hc_zb17944z42_dsmk15lr780000gn/T/ipykernel_84577/4164311960.py:7: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  rent_df2[geospatial] = rent_df2[geospatial].astype(np.float64)
+
+2023-10-12 12:10:20,420:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-10-12 12:10:20,420:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-10-12 12:10:20,420:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-10-12 12:10:20,420:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-10-12 12:10:22,924:WARNING:/var/folders/73/hc_zb17944z42_dsmk15lr780000gn/T/ipykernel_1815/2359924451.py:2: DtypeWarning: Columns (11,15,19) have mixed types. Specify dtype option on import or set low_memory=False.
+  rent_df = pd.read_csv("/Users/ellandalla/Desktop/Machine-Learning/apartments_for_rent_classified_100K.csv",  sep=";", encoding = "UTF-8" )
+
+2023-10-12 12:10:24,277:WARNING:/var/folders/73/hc_zb17944z42_dsmk15lr780000gn/T/ipykernel_1815/1734079811.py:3: FutureWarning: In a future version of pandas all arguments of StringMethods.split except for the argument 'pat' will be keyword-only.
+  rent_df2[['id', 'category', 'title', 'body']] = rent_df2['id'].str.split(';', 3, expand=True)
+
+2023-10-12 12:10:24,860:WARNING:/var/folders/73/hc_zb17944z42_dsmk15lr780000gn/T/ipykernel_1815/413262134.py:1: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  rent_df2[columns_to_convert] = rent_df2[columns_to_convert].replace('', np.nan)
+
+2023-10-12 12:10:24,908:WARNING:/var/folders/73/hc_zb17944z42_dsmk15lr780000gn/T/ipykernel_1815/1934948164.py:1: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  rent_df2['id'] = rent_df2['id'].astype(np.float64)
+
+2023-10-12 12:10:24,920:WARNING:/var/folders/73/hc_zb17944z42_dsmk15lr780000gn/T/ipykernel_1815/2903079363.py:1: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  rent_df2['price'] = rent_df2['price'].astype(np.float64)
+
+2023-10-12 12:10:24,935:WARNING:/var/folders/73/hc_zb17944z42_dsmk15lr780000gn/T/ipykernel_1815/2631852237.py:1: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  rent_df2['square_feet'] = rent_df2['square_feet'].replace(["Hemet", "Elko" ], np.nan)
+
+2023-10-12 12:10:24,947:WARNING:/var/folders/73/hc_zb17944z42_dsmk15lr780000gn/T/ipykernel_1815/362866913.py:1: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  rent_df2['square_feet'] = rent_df2['square_feet'].astype(np.float64)
+
+2023-10-12 12:10:24,952:WARNING:/var/folders/73/hc_zb17944z42_dsmk15lr780000gn/T/ipykernel_1815/362866913.py:1: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  rent_df2['square_feet'] = rent_df2['square_feet'].astype(np.float64)
+
+2023-10-12 12:10:24,956:WARNING:/var/folders/73/hc_zb17944z42_dsmk15lr780000gn/T/ipykernel_1815/362866913.py:1: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  rent_df2['square_feet'] = rent_df2['square_feet'].astype(np.float64)
+
+2023-10-12 12:10:25,030:WARNING:/var/folders/73/hc_zb17944z42_dsmk15lr780000gn/T/ipykernel_1815/1477155071.py:5: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  rent_df2[column] = np.where(rent_df2[column].str.replace("1568758399,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,," , "").str.strip().str.isdigit(), rent_df2[column], np.nan)
+
+2023-10-12 12:10:25,129:WARNING:/var/folders/73/hc_zb17944z42_dsmk15lr780000gn/T/ipykernel_1815/1477155071.py:8: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  rent_df2[geospatial] = rent_df2[geospatial].astype(np.float64)
+
+2023-10-12 14:54:17,736:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-10-12 14:54:17,736:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-10-12 14:54:17,736:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-10-12 14:54:17,736:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-10-12 14:54:19,081:WARNING:/var/folders/73/hc_zb17944z42_dsmk15lr780000gn/T/ipykernel_4661/2359924451.py:2: DtypeWarning: Columns (11,15,19) have mixed types. Specify dtype option on import or set low_memory=False.
+  rent_df = pd.read_csv("/Users/ellandalla/Desktop/Machine-Learning/apartments_for_rent_classified_100K.csv",  sep=";", encoding = "UTF-8" )
+
+2023-10-12 14:54:19,986:WARNING:/var/folders/73/hc_zb17944z42_dsmk15lr780000gn/T/ipykernel_4661/1734079811.py:3: FutureWarning: In a future version of pandas all arguments of StringMethods.split except for the argument 'pat' will be keyword-only.
+  rent_df2[['id', 'category', 'title', 'body']] = rent_df2['id'].str.split(';', 3, expand=True)
+
+2023-10-12 14:54:20,408:WARNING:/var/folders/73/hc_zb17944z42_dsmk15lr780000gn/T/ipykernel_4661/413262134.py:1: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  rent_df2[columns_to_convert] = rent_df2[columns_to_convert].replace('', np.nan)
+
+2023-10-12 14:54:20,443:WARNING:/var/folders/73/hc_zb17944z42_dsmk15lr780000gn/T/ipykernel_4661/1934948164.py:1: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  rent_df2['id'] = rent_df2['id'].astype(np.float64)
+
+2023-10-12 14:54:20,452:WARNING:/var/folders/73/hc_zb17944z42_dsmk15lr780000gn/T/ipykernel_4661/2903079363.py:1: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  rent_df2['price'] = rent_df2['price'].astype(np.float64)
+
+2023-10-12 14:54:20,464:WARNING:/var/folders/73/hc_zb17944z42_dsmk15lr780000gn/T/ipykernel_4661/2631852237.py:1: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  rent_df2['square_feet'] = rent_df2['square_feet'].replace(["Hemet", "Elko" ], np.nan)
+
+2023-10-12 14:54:20,473:WARNING:/var/folders/73/hc_zb17944z42_dsmk15lr780000gn/T/ipykernel_4661/362866913.py:1: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  rent_df2['square_feet'] = rent_df2['square_feet'].astype(np.float64)
+
+2023-10-12 14:54:20,477:WARNING:/var/folders/73/hc_zb17944z42_dsmk15lr780000gn/T/ipykernel_4661/362866913.py:1: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  rent_df2['square_feet'] = rent_df2['square_feet'].astype(np.float64)
+
+2023-10-12 14:54:20,482:WARNING:/var/folders/73/hc_zb17944z42_dsmk15lr780000gn/T/ipykernel_4661/362866913.py:1: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  rent_df2['square_feet'] = rent_df2['square_feet'].astype(np.float64)
+
+2023-10-12 14:54:20,530:WARNING:/var/folders/73/hc_zb17944z42_dsmk15lr780000gn/T/ipykernel_4661/1477155071.py:5: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  rent_df2[column] = np.where(rent_df2[column].str.replace("1568758399,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,," , "").str.strip().str.isdigit(), rent_df2[column], np.nan)
+
+2023-10-12 14:54:20,595:WARNING:/var/folders/73/hc_zb17944z42_dsmk15lr780000gn/T/ipykernel_4661/1477155071.py:8: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  rent_df2[geospatial] = rent_df2[geospatial].astype(np.float64)
+
+2023-10-12 15:08:44,196:WARNING:/var/folders/73/hc_zb17944z42_dsmk15lr780000gn/T/ipykernel_4661/1771691140.py:2: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  rent_df2['amenities'] = rent_df2['amenities'].fillna('')
+
+2023-10-13 11:58:21,291:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-10-13 11:58:21,291:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-10-13 11:58:21,291:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-10-13 11:58:21,291:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-10-13 11:58:22,914:WARNING:/var/folders/73/hc_zb17944z42_dsmk15lr780000gn/T/ipykernel_13944/2359924451.py:2: DtypeWarning: Columns (11,15,19) have mixed types. Specify dtype option on import or set low_memory=False.
+  rent_df = pd.read_csv("/Users/ellandalla/Desktop/Machine-Learning/apartments_for_rent_classified_100K.csv",  sep=";", encoding = "UTF-8" )
+
+2023-10-13 11:58:23,802:WARNING:/var/folders/73/hc_zb17944z42_dsmk15lr780000gn/T/ipykernel_13944/1734079811.py:3: FutureWarning: In a future version of pandas all arguments of StringMethods.split except for the argument 'pat' will be keyword-only.
+  rent_df2[['id', 'category', 'title', 'body']] = rent_df2['id'].str.split(';', 3, expand=True)
+
+2023-10-13 11:58:24,212:WARNING:/var/folders/73/hc_zb17944z42_dsmk15lr780000gn/T/ipykernel_13944/413262134.py:1: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  rent_df2[columns_to_convert] = rent_df2[columns_to_convert].replace('', np.nan)
+
+2023-10-13 11:58:24,246:WARNING:/var/folders/73/hc_zb17944z42_dsmk15lr780000gn/T/ipykernel_13944/1934948164.py:1: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  rent_df2['id'] = rent_df2['id'].astype(np.float64)
+
+2023-10-13 11:58:24,255:WARNING:/var/folders/73/hc_zb17944z42_dsmk15lr780000gn/T/ipykernel_13944/2903079363.py:1: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  rent_df2['price'] = rent_df2['price'].astype(np.float64)
+
+2023-10-13 11:58:24,267:WARNING:/var/folders/73/hc_zb17944z42_dsmk15lr780000gn/T/ipykernel_13944/2631852237.py:1: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  rent_df2['square_feet'] = rent_df2['square_feet'].replace(["Hemet", "Elko" ], np.nan)
+
+2023-10-13 11:58:24,276:WARNING:/var/folders/73/hc_zb17944z42_dsmk15lr780000gn/T/ipykernel_13944/362866913.py:1: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  rent_df2['square_feet'] = rent_df2['square_feet'].astype(np.float64)
+
+2023-10-13 11:58:24,279:WARNING:/var/folders/73/hc_zb17944z42_dsmk15lr780000gn/T/ipykernel_13944/362866913.py:1: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  rent_df2['square_feet'] = rent_df2['square_feet'].astype(np.float64)
+
+2023-10-13 11:58:24,284:WARNING:/var/folders/73/hc_zb17944z42_dsmk15lr780000gn/T/ipykernel_13944/362866913.py:1: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  rent_df2['square_feet'] = rent_df2['square_feet'].astype(np.float64)
+
+2023-10-13 11:58:24,332:WARNING:/var/folders/73/hc_zb17944z42_dsmk15lr780000gn/T/ipykernel_13944/1477155071.py:5: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  rent_df2[column] = np.where(rent_df2[column].str.replace("1568758399,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,," , "").str.strip().str.isdigit(), rent_df2[column], np.nan)
+
+2023-10-13 11:58:24,398:WARNING:/var/folders/73/hc_zb17944z42_dsmk15lr780000gn/T/ipykernel_13944/1477155071.py:8: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  rent_df2[geospatial] = rent_df2[geospatial].astype(np.float64)
+
+2023-10-13 12:09:03,487:WARNING:/var/folders/73/hc_zb17944z42_dsmk15lr780000gn/T/ipykernel_13944/3565400303.py:18: FutureWarning: The default value of numeric_only in DataFrame.min is deprecated. In a future version, it will default to False. In addition, specifying 'numeric_only=None' is deprecated. Select only valid columns or specify the value of numeric_only to silence this warning.
+  pd.Series(rent_df3.min(), name = "Min"),
+
+2023-10-13 12:09:03,722:WARNING:/var/folders/73/hc_zb17944z42_dsmk15lr780000gn/T/ipykernel_13944/3565400303.py:19: FutureWarning: The default value of numeric_only in DataFrame.max is deprecated. In a future version, it will default to False. In addition, specifying 'numeric_only=None' is deprecated. Select only valid columns or specify the value of numeric_only to silence this warning.
+  pd.Series(rent_df3.max(), name = "Max"),
+
+2023-10-13 12:09:06,741:WARNING:/var/folders/73/hc_zb17944z42_dsmk15lr780000gn/T/ipykernel_13944/3565400303.py:20: FutureWarning: The default value of numeric_only in DataFrame.mean is deprecated. In a future version, it will default to False. In addition, specifying 'numeric_only=None' is deprecated. Select only valid columns or specify the value of numeric_only to silence this warning.
+  pd.Series(rent_df3.mean(), name = "Mean"),
+
+2023-10-13 12:09:06,972:WARNING:/var/folders/73/hc_zb17944z42_dsmk15lr780000gn/T/ipykernel_13944/3565400303.py:21: FutureWarning: The default value of numeric_only in DataFrame.median is deprecated. In a future version, it will default to False. In addition, specifying 'numeric_only=None' is deprecated. Select only valid columns or specify the value of numeric_only to silence this warning.
+  pd.Series(rent_df3.median(), name = "Median"),
+
+2023-10-13 12:09:12,832:WARNING:/var/folders/73/hc_zb17944z42_dsmk15lr780000gn/T/ipykernel_13944/3565400303.py:18: FutureWarning: The default value of numeric_only in DataFrame.min is deprecated. In a future version, it will default to False. In addition, specifying 'numeric_only=None' is deprecated. Select only valid columns or specify the value of numeric_only to silence this warning.
+  pd.Series(rent_df3.min(), name = "Min"),
+
+2023-10-13 12:09:13,096:WARNING:/var/folders/73/hc_zb17944z42_dsmk15lr780000gn/T/ipykernel_13944/3565400303.py:19: FutureWarning: The default value of numeric_only in DataFrame.max is deprecated. In a future version, it will default to False. In addition, specifying 'numeric_only=None' is deprecated. Select only valid columns or specify the value of numeric_only to silence this warning.
+  pd.Series(rent_df3.max(), name = "Max"),
+
+2023-10-13 12:09:15,916:WARNING:/var/folders/73/hc_zb17944z42_dsmk15lr780000gn/T/ipykernel_13944/3565400303.py:20: FutureWarning: The default value of numeric_only in DataFrame.mean is deprecated. In a future version, it will default to False. In addition, specifying 'numeric_only=None' is deprecated. Select only valid columns or specify the value of numeric_only to silence this warning.
+  pd.Series(rent_df3.mean(), name = "Mean"),
+
+2023-10-13 12:09:16,144:WARNING:/var/folders/73/hc_zb17944z42_dsmk15lr780000gn/T/ipykernel_13944/3565400303.py:21: FutureWarning: The default value of numeric_only in DataFrame.median is deprecated. In a future version, it will default to False. In addition, specifying 'numeric_only=None' is deprecated. Select only valid columns or specify the value of numeric_only to silence this warning.
+  pd.Series(rent_df3.median(), name = "Median"),
+
+2023-10-13 20:25:04,990:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-10-13 20:25:04,990:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-10-13 20:25:04,990:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-10-13 20:25:04,990:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-10-13 20:25:06,440:WARNING:/var/folders/73/hc_zb17944z42_dsmk15lr780000gn/T/ipykernel_22009/2359924451.py:2: DtypeWarning: Columns (11,15,19) have mixed types. Specify dtype option on import or set low_memory=False.
+  rent_df = pd.read_csv("/Users/ellandalla/Desktop/Machine-Learning/apartments_for_rent_classified_100K.csv",  sep=";", encoding = "UTF-8" )
+
+2023-10-13 20:25:07,330:WARNING:/var/folders/73/hc_zb17944z42_dsmk15lr780000gn/T/ipykernel_22009/1734079811.py:3: FutureWarning: In a future version of pandas all arguments of StringMethods.split except for the argument 'pat' will be keyword-only.
+  rent_df2[['id', 'category', 'title', 'body']] = rent_df2['id'].str.split(';', 3, expand=True)
+
+2023-10-13 20:25:07,749:WARNING:/var/folders/73/hc_zb17944z42_dsmk15lr780000gn/T/ipykernel_22009/413262134.py:1: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  rent_df2[columns_to_convert] = rent_df2[columns_to_convert].replace('', np.nan)
+
+2023-10-13 20:25:07,781:WARNING:/var/folders/73/hc_zb17944z42_dsmk15lr780000gn/T/ipykernel_22009/1934948164.py:1: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  rent_df2['id'] = rent_df2['id'].astype(np.float64)
+
+2023-10-13 20:25:07,790:WARNING:/var/folders/73/hc_zb17944z42_dsmk15lr780000gn/T/ipykernel_22009/2903079363.py:1: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  rent_df2['price'] = rent_df2['price'].astype(np.float64)
+
+2023-10-13 20:25:07,800:WARNING:/var/folders/73/hc_zb17944z42_dsmk15lr780000gn/T/ipykernel_22009/2631852237.py:1: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  rent_df2['square_feet'] = rent_df2['square_feet'].replace(["Hemet", "Elko" ], np.nan)
+
+2023-10-13 20:25:07,808:WARNING:/var/folders/73/hc_zb17944z42_dsmk15lr780000gn/T/ipykernel_22009/362866913.py:1: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  rent_df2['square_feet'] = rent_df2['square_feet'].astype(np.float64)
+
+2023-10-13 20:25:07,811:WARNING:/var/folders/73/hc_zb17944z42_dsmk15lr780000gn/T/ipykernel_22009/362866913.py:1: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  rent_df2['square_feet'] = rent_df2['square_feet'].astype(np.float64)
+
+2023-10-13 20:25:07,815:WARNING:/var/folders/73/hc_zb17944z42_dsmk15lr780000gn/T/ipykernel_22009/362866913.py:1: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  rent_df2['square_feet'] = rent_df2['square_feet'].astype(np.float64)
+
+2023-10-13 20:25:07,864:WARNING:/var/folders/73/hc_zb17944z42_dsmk15lr780000gn/T/ipykernel_22009/1477155071.py:5: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  rent_df2[column] = np.where(rent_df2[column].str.replace("1568758399,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,," , "").str.strip().str.isdigit(), rent_df2[column], np.nan)
+
+2023-10-13 20:25:07,929:WARNING:/var/folders/73/hc_zb17944z42_dsmk15lr780000gn/T/ipykernel_22009/1477155071.py:8: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  rent_df2[geospatial] = rent_df2[geospatial].astype(np.float64)
+
+2023-10-13 20:25:09,361:WARNING:/var/folders/73/hc_zb17944z42_dsmk15lr780000gn/T/ipykernel_22009/3565400303.py:18: FutureWarning: The default value of numeric_only in DataFrame.min is deprecated. In a future version, it will default to False. In addition, specifying 'numeric_only=None' is deprecated. Select only valid columns or specify the value of numeric_only to silence this warning.
+  pd.Series(rent_df3.min(), name = "Min"),
+
+2023-10-13 20:25:09,602:WARNING:/var/folders/73/hc_zb17944z42_dsmk15lr780000gn/T/ipykernel_22009/3565400303.py:19: FutureWarning: The default value of numeric_only in DataFrame.max is deprecated. In a future version, it will default to False. In addition, specifying 'numeric_only=None' is deprecated. Select only valid columns or specify the value of numeric_only to silence this warning.
+  pd.Series(rent_df3.max(), name = "Max"),
+
+2023-10-13 20:25:12,451:WARNING:/var/folders/73/hc_zb17944z42_dsmk15lr780000gn/T/ipykernel_22009/3565400303.py:20: FutureWarning: The default value of numeric_only in DataFrame.mean is deprecated. In a future version, it will default to False. In addition, specifying 'numeric_only=None' is deprecated. Select only valid columns or specify the value of numeric_only to silence this warning.
+  pd.Series(rent_df3.mean(), name = "Mean"),
+
+2023-10-13 20:25:12,685:WARNING:/var/folders/73/hc_zb17944z42_dsmk15lr780000gn/T/ipykernel_22009/3565400303.py:21: FutureWarning: The default value of numeric_only in DataFrame.median is deprecated. In a future version, it will default to False. In addition, specifying 'numeric_only=None' is deprecated. Select only valid columns or specify the value of numeric_only to silence this warning.
+  pd.Series(rent_df3.median(), name = "Median"),
+
+2023-10-13 20:56:55,492:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-10-13 20:56:55,492:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-10-13 20:56:55,492:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-10-13 20:56:55,492:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-10-13 20:56:56,819:WARNING:/var/folders/73/hc_zb17944z42_dsmk15lr780000gn/T/ipykernel_22524/2359924451.py:2: DtypeWarning: Columns (11,15,19) have mixed types. Specify dtype option on import or set low_memory=False.
+  rent_df = pd.read_csv("/Users/ellandalla/Desktop/Machine-Learning/apartments_for_rent_classified_100K.csv",  sep=";", encoding = "UTF-8" )
+
+2023-10-13 20:56:57,710:WARNING:/var/folders/73/hc_zb17944z42_dsmk15lr780000gn/T/ipykernel_22524/1734079811.py:3: FutureWarning: In a future version of pandas all arguments of StringMethods.split except for the argument 'pat' will be keyword-only.
+  rent_df2[['id', 'category', 'title', 'body']] = rent_df2['id'].str.split(';', 3, expand=True)
+
+2023-10-13 20:56:58,119:WARNING:/var/folders/73/hc_zb17944z42_dsmk15lr780000gn/T/ipykernel_22524/413262134.py:1: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  rent_df2[columns_to_convert] = rent_df2[columns_to_convert].replace('', np.nan)
+
+2023-10-13 20:56:58,153:WARNING:/var/folders/73/hc_zb17944z42_dsmk15lr780000gn/T/ipykernel_22524/1934948164.py:1: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  rent_df2['id'] = rent_df2['id'].astype(np.float64)
+
+2023-10-13 20:56:58,243:WARNING:/var/folders/73/hc_zb17944z42_dsmk15lr780000gn/T/ipykernel_22524/2903079363.py:1: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  rent_df2['price'] = rent_df2['price'].astype(np.float64)
+
+2023-10-13 20:56:58,255:WARNING:/var/folders/73/hc_zb17944z42_dsmk15lr780000gn/T/ipykernel_22524/2631852237.py:1: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  rent_df2['square_feet'] = rent_df2['square_feet'].replace(["Hemet", "Elko" ], np.nan)
+
+2023-10-13 20:56:58,265:WARNING:/var/folders/73/hc_zb17944z42_dsmk15lr780000gn/T/ipykernel_22524/362866913.py:1: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  rent_df2['square_feet'] = rent_df2['square_feet'].astype(np.float64)
+
+2023-10-13 20:56:58,270:WARNING:/var/folders/73/hc_zb17944z42_dsmk15lr780000gn/T/ipykernel_22524/362866913.py:1: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  rent_df2['square_feet'] = rent_df2['square_feet'].astype(np.float64)
+
+2023-10-13 20:56:58,275:WARNING:/var/folders/73/hc_zb17944z42_dsmk15lr780000gn/T/ipykernel_22524/362866913.py:1: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  rent_df2['square_feet'] = rent_df2['square_feet'].astype(np.float64)
+
+2023-10-13 20:56:58,324:WARNING:/var/folders/73/hc_zb17944z42_dsmk15lr780000gn/T/ipykernel_22524/1477155071.py:5: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  rent_df2[column] = np.where(rent_df2[column].str.replace("1568758399,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,," , "").str.strip().str.isdigit(), rent_df2[column], np.nan)
+
+2023-10-13 20:56:58,392:WARNING:/var/folders/73/hc_zb17944z42_dsmk15lr780000gn/T/ipykernel_22524/1477155071.py:8: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  rent_df2[geospatial] = rent_df2[geospatial].astype(np.float64)
+
+2023-10-13 20:56:59,845:WARNING:/var/folders/73/hc_zb17944z42_dsmk15lr780000gn/T/ipykernel_22524/3565400303.py:18: FutureWarning: The default value of numeric_only in DataFrame.min is deprecated. In a future version, it will default to False. In addition, specifying 'numeric_only=None' is deprecated. Select only valid columns or specify the value of numeric_only to silence this warning.
+  pd.Series(rent_df3.min(), name = "Min"),
+
+2023-10-13 20:57:00,082:WARNING:/var/folders/73/hc_zb17944z42_dsmk15lr780000gn/T/ipykernel_22524/3565400303.py:19: FutureWarning: The default value of numeric_only in DataFrame.max is deprecated. In a future version, it will default to False. In addition, specifying 'numeric_only=None' is deprecated. Select only valid columns or specify the value of numeric_only to silence this warning.
+  pd.Series(rent_df3.max(), name = "Max"),
+
+2023-10-13 20:57:02,909:WARNING:/var/folders/73/hc_zb17944z42_dsmk15lr780000gn/T/ipykernel_22524/3565400303.py:20: FutureWarning: The default value of numeric_only in DataFrame.mean is deprecated. In a future version, it will default to False. In addition, specifying 'numeric_only=None' is deprecated. Select only valid columns or specify the value of numeric_only to silence this warning.
+  pd.Series(rent_df3.mean(), name = "Mean"),
+
+2023-10-13 20:57:03,136:WARNING:/var/folders/73/hc_zb17944z42_dsmk15lr780000gn/T/ipykernel_22524/3565400303.py:21: FutureWarning: The default value of numeric_only in DataFrame.median is deprecated. In a future version, it will default to False. In addition, specifying 'numeric_only=None' is deprecated. Select only valid columns or specify the value of numeric_only to silence this warning.
+  pd.Series(rent_df3.median(), name = "Median"),
+
+2023-10-13 21:10:44,618:WARNING:/var/folders/73/hc_zb17944z42_dsmk15lr780000gn/T/ipykernel_22524/3413695144.py:2: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  rent_df2["amenities"] = rent_df2["amenities"].replace('""' , '')
+
+2023-10-13 21:11:06,933:WARNING:/var/folders/73/hc_zb17944z42_dsmk15lr780000gn/T/ipykernel_22524/3565400303.py:18: FutureWarning: The default value of numeric_only in DataFrame.min is deprecated. In a future version, it will default to False. In addition, specifying 'numeric_only=None' is deprecated. Select only valid columns or specify the value of numeric_only to silence this warning.
+  pd.Series(rent_df3.min(), name = "Min"),
+
+2023-10-13 21:11:07,161:WARNING:/var/folders/73/hc_zb17944z42_dsmk15lr780000gn/T/ipykernel_22524/3565400303.py:19: FutureWarning: The default value of numeric_only in DataFrame.max is deprecated. In a future version, it will default to False. In addition, specifying 'numeric_only=None' is deprecated. Select only valid columns or specify the value of numeric_only to silence this warning.
+  pd.Series(rent_df3.max(), name = "Max"),
+
+2023-10-13 21:11:10,052:WARNING:/var/folders/73/hc_zb17944z42_dsmk15lr780000gn/T/ipykernel_22524/3565400303.py:20: FutureWarning: The default value of numeric_only in DataFrame.mean is deprecated. In a future version, it will default to False. In addition, specifying 'numeric_only=None' is deprecated. Select only valid columns or specify the value of numeric_only to silence this warning.
+  pd.Series(rent_df3.mean(), name = "Mean"),
+
+2023-10-13 21:11:10,277:WARNING:/var/folders/73/hc_zb17944z42_dsmk15lr780000gn/T/ipykernel_22524/3565400303.py:21: FutureWarning: The default value of numeric_only in DataFrame.median is deprecated. In a future version, it will default to False. In addition, specifying 'numeric_only=None' is deprecated. Select only valid columns or specify the value of numeric_only to silence this warning.
+  pd.Series(rent_df3.median(), name = "Median"),
+
+2023-10-13 21:43:07,722:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-10-13 21:43:07,722:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-10-13 21:43:07,722:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-10-13 21:43:07,722:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-10-13 21:43:09,140:WARNING:/var/folders/73/hc_zb17944z42_dsmk15lr780000gn/T/ipykernel_23285/2359924451.py:2: DtypeWarning: Columns (11,15,19) have mixed types. Specify dtype option on import or set low_memory=False.
+  rent_df = pd.read_csv("/Users/ellandalla/Desktop/Machine-Learning/apartments_for_rent_classified_100K.csv",  sep=";", encoding = "UTF-8" )
+
+2023-10-13 21:43:15,422:WARNING:/var/folders/73/hc_zb17944z42_dsmk15lr780000gn/T/ipykernel_23285/1734079811.py:3: FutureWarning: In a future version of pandas all arguments of StringMethods.split except for the argument 'pat' will be keyword-only.
+  rent_df2[['id', 'category', 'title', 'body']] = rent_df2['id'].str.split(';', 3, expand=True)
+
+2023-10-13 21:43:32,501:WARNING:/var/folders/73/hc_zb17944z42_dsmk15lr780000gn/T/ipykernel_23285/413262134.py:1: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  rent_df2[columns_to_convert] = rent_df2[columns_to_convert].replace('', np.nan)
+
+2023-10-13 21:43:35,897:WARNING:/var/folders/73/hc_zb17944z42_dsmk15lr780000gn/T/ipykernel_23285/1934948164.py:1: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  rent_df2['id'] = rent_df2['id'].astype(np.float64)
+
+2023-10-13 21:43:37,003:WARNING:/var/folders/73/hc_zb17944z42_dsmk15lr780000gn/T/ipykernel_23285/2903079363.py:1: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  rent_df2['price'] = rent_df2['price'].astype(np.float64)
+
+2023-10-13 21:43:39,128:WARNING:/var/folders/73/hc_zb17944z42_dsmk15lr780000gn/T/ipykernel_23285/2631852237.py:1: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  rent_df2['square_feet'] = rent_df2['square_feet'].replace(["Hemet", "Elko" ], np.nan)
+
+2023-10-13 21:43:41,184:WARNING:/var/folders/73/hc_zb17944z42_dsmk15lr780000gn/T/ipykernel_23285/362866913.py:1: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  rent_df2['square_feet'] = rent_df2['square_feet'].astype(np.float64)
+
+2023-10-13 21:43:42,631:WARNING:/var/folders/73/hc_zb17944z42_dsmk15lr780000gn/T/ipykernel_23285/362866913.py:1: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  rent_df2['square_feet'] = rent_df2['square_feet'].astype(np.float64)
+
+2023-10-13 21:44:53,730:WARNING:/var/folders/73/hc_zb17944z42_dsmk15lr780000gn/T/ipykernel_23285/1477155071.py:5: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  rent_df2[column] = np.where(rent_df2[column].str.replace("1568758399,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,," , "").str.strip().str.isdigit(), rent_df2[column], np.nan)
+
+2023-10-13 21:44:53,797:WARNING:/var/folders/73/hc_zb17944z42_dsmk15lr780000gn/T/ipykernel_23285/1477155071.py:8: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  rent_df2[geospatial] = rent_df2[geospatial].astype(np.float64)
+
+2023-10-13 21:46:44,289:WARNING:/var/folders/73/hc_zb17944z42_dsmk15lr780000gn/T/ipykernel_23285/2645568900.py:2: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  rent_df2["amenities"] = rent_df2["amenities"].replace('""' , '')
+
+2023-10-13 21:47:25,851:WARNING:/var/folders/73/hc_zb17944z42_dsmk15lr780000gn/T/ipykernel_23285/846195638.py:2: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  rent_df2["amenities"] = rent_df2["amenities"].replace('""' , '')
+
+2023-10-13 21:47:36,948:WARNING:/var/folders/73/hc_zb17944z42_dsmk15lr780000gn/T/ipykernel_23285/2658607955.py:2: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  rent_df2["amenities"] = rent_df2["amenities"].replace('""' , '')
+
+2023-10-13 21:54:59,575:WARNING:/var/folders/73/hc_zb17944z42_dsmk15lr780000gn/T/ipykernel_23285/2563036375.py:2: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  rent_df2["amenities"] = rent_df2["amenities"].replace('""' , '')
+
+2023-10-13 21:54:59,581:WARNING:/var/folders/73/hc_zb17944z42_dsmk15lr780000gn/T/ipykernel_23285/2563036375.py:3: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  rent_df2["amenities"] = rent_df2["amenities"].replace('"' , '')
+
+2023-10-13 21:55:48,686:WARNING:/var/folders/73/hc_zb17944z42_dsmk15lr780000gn/T/ipykernel_23285/2507739052.py:2: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  rent_df2["amenities"] = rent_df2["amenities"].replace('""' , '')
+
+2023-10-13 21:55:48,690:WARNING:/var/folders/73/hc_zb17944z42_dsmk15lr780000gn/T/ipykernel_23285/2507739052.py:3: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  rent_df2["amenities"] = rent_df2["amenities"].replace(' "' , '')
+
+2023-10-13 21:55:58,757:WARNING:/var/folders/73/hc_zb17944z42_dsmk15lr780000gn/T/ipykernel_23285/2563036375.py:2: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  rent_df2["amenities"] = rent_df2["amenities"].replace('""' , '')
+
+2023-10-13 21:55:58,762:WARNING:/var/folders/73/hc_zb17944z42_dsmk15lr780000gn/T/ipykernel_23285/2563036375.py:3: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  rent_df2["amenities"] = rent_df2["amenities"].replace('"' , '')
+
+2023-10-13 21:59:34,013:WARNING:/var/folders/73/hc_zb17944z42_dsmk15lr780000gn/T/ipykernel_23285/1825115118.py:2: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  rent_df2["amenities"] = rent_df2["amenities"].str.replace('""' , '').str.strip()
+
+2023-10-13 21:59:34,035:WARNING:/var/folders/73/hc_zb17944z42_dsmk15lr780000gn/T/ipykernel_23285/1825115118.py:3: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  rent_df2["amenities"] = rent_df2["amenities"].str.replace('"' , '').str.strip()
+
+2023-10-13 22:07:51,186:WARNING:/var/folders/73/hc_zb17944z42_dsmk15lr780000gn/T/ipykernel_23285/2936452096.py:3: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  rent_df2[amenity] = 0
+
+2023-10-13 22:07:51,188:WARNING:/var/folders/73/hc_zb17944z42_dsmk15lr780000gn/T/ipykernel_23285/2936452096.py:3: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  rent_df2[amenity] = 0
+
+2023-10-13 22:07:51,190:WARNING:/var/folders/73/hc_zb17944z42_dsmk15lr780000gn/T/ipykernel_23285/2936452096.py:3: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  rent_df2[amenity] = 0
+
+2023-10-13 22:07:51,192:WARNING:/var/folders/73/hc_zb17944z42_dsmk15lr780000gn/T/ipykernel_23285/2936452096.py:3: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  rent_df2[amenity] = 0
+
+2023-10-13 22:07:51,193:WARNING:/var/folders/73/hc_zb17944z42_dsmk15lr780000gn/T/ipykernel_23285/2936452096.py:3: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  rent_df2[amenity] = 0
+
+2023-10-13 22:07:51,193:WARNING:/var/folders/73/hc_zb17944z42_dsmk15lr780000gn/T/ipykernel_23285/2936452096.py:3: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  rent_df2[amenity] = 0
+
+2023-10-13 22:07:51,194:WARNING:/var/folders/73/hc_zb17944z42_dsmk15lr780000gn/T/ipykernel_23285/2936452096.py:3: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  rent_df2[amenity] = 0
+
+2023-10-13 22:07:51,195:WARNING:/var/folders/73/hc_zb17944z42_dsmk15lr780000gn/T/ipykernel_23285/2936452096.py:3: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  rent_df2[amenity] = 0
+
+2023-10-13 22:07:51,195:WARNING:/var/folders/73/hc_zb17944z42_dsmk15lr780000gn/T/ipykernel_23285/2936452096.py:3: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  rent_df2[amenity] = 0
+
+2023-10-13 22:07:51,196:WARNING:/var/folders/73/hc_zb17944z42_dsmk15lr780000gn/T/ipykernel_23285/2936452096.py:3: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  rent_df2[amenity] = 0
+
+2023-10-13 22:07:51,197:WARNING:/var/folders/73/hc_zb17944z42_dsmk15lr780000gn/T/ipykernel_23285/2936452096.py:3: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  rent_df2[amenity] = 0
+
+2023-10-13 22:07:51,198:WARNING:/var/folders/73/hc_zb17944z42_dsmk15lr780000gn/T/ipykernel_23285/2936452096.py:3: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  rent_df2[amenity] = 0
+
+2023-10-13 22:07:51,199:WARNING:/var/folders/73/hc_zb17944z42_dsmk15lr780000gn/T/ipykernel_23285/2936452096.py:3: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  rent_df2[amenity] = 0
+
+2023-10-13 22:07:51,199:WARNING:/var/folders/73/hc_zb17944z42_dsmk15lr780000gn/T/ipykernel_23285/2936452096.py:3: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  rent_df2[amenity] = 0
+
+2023-10-13 22:07:51,200:WARNING:/var/folders/73/hc_zb17944z42_dsmk15lr780000gn/T/ipykernel_23285/2936452096.py:3: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  rent_df2[amenity] = 0
+
+2023-10-13 22:07:51,201:WARNING:/var/folders/73/hc_zb17944z42_dsmk15lr780000gn/T/ipykernel_23285/2936452096.py:3: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  rent_df2[amenity] = 0
+
+2023-10-13 22:07:51,201:WARNING:/var/folders/73/hc_zb17944z42_dsmk15lr780000gn/T/ipykernel_23285/2936452096.py:3: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  rent_df2[amenity] = 0
+
+2023-10-13 22:07:51,201:WARNING:/var/folders/73/hc_zb17944z42_dsmk15lr780000gn/T/ipykernel_23285/2936452096.py:3: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  rent_df2[amenity] = 0
+
+2023-10-13 22:07:51,202:WARNING:/var/folders/73/hc_zb17944z42_dsmk15lr780000gn/T/ipykernel_23285/2936452096.py:3: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  rent_df2[amenity] = 0
+
+2023-10-13 22:07:51,202:WARNING:/var/folders/73/hc_zb17944z42_dsmk15lr780000gn/T/ipykernel_23285/2936452096.py:3: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  rent_df2[amenity] = 0
+
+2023-10-13 22:07:51,203:WARNING:/var/folders/73/hc_zb17944z42_dsmk15lr780000gn/T/ipykernel_23285/2936452096.py:3: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  rent_df2[amenity] = 0
+
+2023-10-13 22:07:51,203:WARNING:/var/folders/73/hc_zb17944z42_dsmk15lr780000gn/T/ipykernel_23285/2936452096.py:3: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  rent_df2[amenity] = 0
+
+2023-10-13 22:07:51,203:WARNING:/var/folders/73/hc_zb17944z42_dsmk15lr780000gn/T/ipykernel_23285/2936452096.py:3: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  rent_df2[amenity] = 0
+
+2023-10-13 22:07:51,204:WARNING:/var/folders/73/hc_zb17944z42_dsmk15lr780000gn/T/ipykernel_23285/2936452096.py:3: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  rent_df2[amenity] = 0
+
+2023-10-13 22:07:51,204:WARNING:/var/folders/73/hc_zb17944z42_dsmk15lr780000gn/T/ipykernel_23285/2936452096.py:3: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  rent_df2[amenity] = 0
+
+2023-10-13 22:07:51,205:WARNING:/var/folders/73/hc_zb17944z42_dsmk15lr780000gn/T/ipykernel_23285/2936452096.py:3: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  rent_df2[amenity] = 0
+
+2023-10-13 22:08:28,160:WARNING:/var/folders/73/hc_zb17944z42_dsmk15lr780000gn/T/ipykernel_23285/3231251128.py:3: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  rent_df2[amenity] = 0
+
+2023-10-13 22:08:28,222:WARNING:/var/folders/73/hc_zb17944z42_dsmk15lr780000gn/T/ipykernel_23285/3231251128.py:9: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  rent_df2.at[index, amenity] = 1
+
+2023-10-13 22:08:29,927:WARNING:/var/folders/73/hc_zb17944z42_dsmk15lr780000gn/T/ipykernel_23285/3231251128.py:9: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  rent_df2.at[index, amenity] = 1
+
+2023-10-13 22:08:31,557:WARNING:/var/folders/73/hc_zb17944z42_dsmk15lr780000gn/T/ipykernel_23285/3231251128.py:9: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  rent_df2.at[index, amenity] = 1
+
+2023-10-13 22:08:54,980:WARNING:/var/folders/73/hc_zb17944z42_dsmk15lr780000gn/T/ipykernel_23285/2906035014.py:3: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  rent_df2[amenity] = 0
+
